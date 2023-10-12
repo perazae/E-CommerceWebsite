@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Week 1/E-CommerceWebsite"
+		},
+		{
+			"path": "../HTML-Basic-structure"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "E-CommerceWebsite"
+	}
+}
