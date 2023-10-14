@@ -1,4 +1,64 @@
-format{
-    align-items: center;
+/* Centering Container */
+.container.format {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center vertically on the screen */
+    text-align: center;
+}
+
+/* Style for the form */
+.container.format form {
+    max-width: 400px; /* Limit the form width */
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the header */
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the h1 element in the header */
+header h1 {
+    font-size: 36px;
+}
+
+/* Style for the navigation links in the navbar */
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Style for the login form labels */
+form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Style for the remember me checkbox label */
+.form-check label {
+    font-weight: normal;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0056b3;
 }
