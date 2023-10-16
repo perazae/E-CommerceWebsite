@@ -62,4 +62,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+.image-container {
+    display: flex; /* Use flexbox to align images horizontally */
+}
 
+.image-container img {
+    width: 50%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
